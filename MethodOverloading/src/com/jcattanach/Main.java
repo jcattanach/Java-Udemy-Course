@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static int calculateScore(int score){
-        System.out.println("Unamened player scored " + score + " points");
+        System.out.println("Unnamed player scored " + score + " points");
         return score * 1000;
     }
 
