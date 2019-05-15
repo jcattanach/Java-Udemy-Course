@@ -33,9 +33,9 @@ public class Main {
             return 2;
         } else if (playerScore >= 100){
             return 3;
-        } else {
-            return 4;
         }
+        return 4;
+
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
