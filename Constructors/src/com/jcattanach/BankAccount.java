@@ -2,6 +2,21 @@ package com.jcattanach;
 
 public class BankAccount {
 
+    // This is the constructor, which can be overloaded...
+    // can call this() and that is a good way to add default options. It calls the other constructor function
+
+    public BankAccount(){
+        this("default name", 11111, 5);
+    }
+
+    public BankAccount(String name, int acctNum, double balance) {
+        this.acctNum = acctNum;
+        this.balance = balance;
+        this.name = name;
+    }
+
+    // ****************
+
     private int acctNum;
     private double balance;
     private String name;
