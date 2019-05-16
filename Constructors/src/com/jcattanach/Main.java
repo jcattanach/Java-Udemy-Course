@@ -4,11 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        BankAccount acctOne = new BankAccount();
-
-        acctOne.setBalance(100.00);
-        acctOne.setAcctNum(458973);
-        acctOne.setName("Jack Cattanach");
+        BankAccount acctOne = new BankAccount("Jack Cattanach", 777123, 100);
 
         System.out.println(acctOne.getAcctNum());
         System.out.println(acctOne.getBalance());
