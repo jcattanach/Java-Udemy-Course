@@ -8,17 +8,26 @@ public class Main {
 	// write your code here
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your birth year: ");
-        int yearOfBirth = scanner.nextInt();
-        scanner.nextLine(); // handle enter key
 
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
+        boolean hasNextInt = scanner.hasNextInt();
 
-        int age = 2019 - yearOfBirth;
+        if(hasNextInt){
+            int yearOfBirth = scanner.nextInt();
+            scanner.nextLine(); // handle enter key
 
+            System.out.println("Enter your name: ");
+            String name = scanner.nextLine();
 
-        System.out.println("your name is " +  name + ", and you are " + age + " years old.");
+            int age = 2019 - yearOfBirth;
 
+            if(age >= 0 && age <= 120){
+                System.out.println("your name is " +  name + ", and you are " + age + " years old.");
+            } else {
+                System.out.println("invalid year of birth...");
+            }
+        } else {
+            System.out.println("Please enter a valid year...");
+        }
 
         scanner.close();
 
