@@ -52,7 +52,7 @@ public class Main {
         String phone = scanner.nextLine();
         Contact newContact = Contact.creatContact(name, phone);
         if (mobilePhone.addNewContact(newContact)){
-            System.out.println("New contact added: name = " + name + " ,phone = " + phone);
+            System.out.println("New contact added: name = " + name + ", phone = " + phone);
         } else {
             System.out.println("Can not add, " + name + " already in contacts.");
         }
@@ -109,7 +109,7 @@ public class Main {
             return;
         }
 
-        System.out.println("Name: " + existingContactRecord.getName() + " phone number is " + existingContactRecord.getNumber());
+        System.out.println("Name: " + existingContactRecord.getName() + " - Number: " + existingContactRecord.getNumber());
     }
 
 
