@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3738f22b-dc43-474c-b883-1093f2d919cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../String/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../String/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../String/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../String/src/com/jackcattanach/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../String/src/com/jackcattanach/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3738f22b-dc43-474c-b883-1093f2d919cd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +96,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
